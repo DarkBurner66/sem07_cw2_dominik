@@ -1,0 +1,78 @@
+/*------------------------------------
+BASE
+------------------------------------*/
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  /*------------------------------------
+  ELEMENT
+  ------------------------------------*/
+
+  body{
+    font-family: "Merriweather","Carter One","Roboto";
+  }
+  .wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  li{
+    list-style: none;
+  }
+
+  /*------------------------------------
+COMPONENT
+------------------------------------*/
+
+/* header */
+
+header{
+    background: #379ae3;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0;
+}
+header nav li{
+    font: 700 1.125rem "Roboto";
+}
+header nav a:hover{
+    color: #E6EDF1;
+}
+header .bouton{
+font: 700 1.125rem "Roboto";
+display: flex;
+justify-content: center;
+align-items: center;
+background: white;
+border-radius:5px ;
+border: solid black 2px ;
+height:36px ;
+padding: 0 28px;
+}
+
+header .logo{
+    font: 700 1.5rem "Merriweather";
+}
