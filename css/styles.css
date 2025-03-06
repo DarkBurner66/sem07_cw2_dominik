@@ -29,6 +29,10 @@ html {
     list-style: none;
   }
 
+  p{
+    font: 400 1.125rem/150% "Roboto";
+  }
+
   /*------------------------------------
 COMPONENT
 ------------------------------------*/
@@ -100,7 +104,11 @@ header .logo{
    border-radius:20px ;
    display: flex;
    flex-direction: column;
-   gap: 40px;
+   gap: 50px;
+}
+.top_section{
+  width: 800px;
+  margin: 0 auto;
 }
 .action h1{
     font:700 4rem "Merriweather" ;
@@ -115,12 +123,11 @@ header .logo{
     text-align: center;
     padding: 0 40px;
     margin: 0;
+    
 }
 .action .bouton{
     background: #E67522;
     align-self: center;
-    
-    color: #fff;
     margin: auto 0 40px;
     width: 350px; 
     height: 36px;
@@ -129,4 +136,72 @@ header .logo{
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+}
+.action a{
+  color: #fff;
+}
+
+
+/*section contenu*/
+.contenu{
+  background:#E6EDF1 ;
+}
+.contenu h2{
+  font: 700 4rem "Merriweather";
+  text-align: center;
+  padding-top: 100px;
+  margin: 0;
+}
+.sous_titre{
+  
+  text-align: center;
+  padding: 20px 0 70px ;
+}
+.carte{
+  display: flex;
+  gap: 30px;
+}
+.carte article{
+  display:flex ;
+  flex-direction: column;
+  gap: 30px;
+  height: 785px;
+  width: 370px;
+  background:#fff ;
+  margin-bottom: 100px;
+}
+h3{
+  font: 700 2.25rem "Merriweather";
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin: 0;
+}
+.carte p{
+  text-align: center;
+ padding: 0 20px;
+ margin: 0;
+}
+.carte .bouton a{
+ color: #000;
+}
+.carte .bouton{
+  background: #E67522;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  border: 2px solid #000;
+  border-radius: 5px;
+  align-self: center;
+  width: 150px;
+  height: 40px;
+margin-bottom: 38px;
+}
+.corner{
+  position: relative;
+}
+.premier{
+  position: absolute;
+  top: -11px;
+  right: -11px;
 }
