@@ -205,3 +205,35 @@ margin-bottom: 38px;
   top: -11px;
   right: -11px;
 }
+
+/*footer*/
+footer{
+  background:#CCDAE3 ;
+}
+footer ul{
+  display: flex;
+  justify-content: center ;
+  gap: 20px;
+  margin: 0;
+  padding-top: 50px;
+}
+footer li{
+  height: 90px;
+  width: 90px;
+  background: #E67522;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-radius:100%; 
+  border: 2px solid #fff ;
+}
+.material-symbols-rounded{
+  color: #fff;
+  font-size:4rem;
+
+}
+footer p{
+  font: 400 0.875rem "roboto";
+  text-align: center;
+  padding:60px 0 50px
+}
