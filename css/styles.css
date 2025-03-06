@@ -22,7 +22,7 @@ html {
   }
   a{
     text-decoration: none;
-    color: black;
+    color: #000;
   }
   
   li{
@@ -41,6 +41,7 @@ header{
     top: 0;
     z-index: 1;
     width: 100vw;
+    height: 65px;
 }
 
 header .wrapper{
@@ -68,11 +69,64 @@ justify-content: center;
 align-items: center;
 background: white;
 border-radius:5px ;
-border: solid black 2px ;
+border:2px solid #000 ;
 height:36px ;
 padding: 0 28px;
 }
 
 header .logo{
     font: 700 1.5rem "Merriweather";
+    text-transform: uppercase;
+}
+
+
+/* hero */
+
+.hero{
+    margin-top: 65px ;
+    background: url(../images/hero.jpg) no-repeat center/cover;
+}
+
+.hero .wrapper{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 640px;
+}
+.action{
+    background: rgba(0, 0, 0, 0.7);
+   height:440px ;
+   width: 550px;
+   border-radius:20px ;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+.action h1{
+    font:700 4rem "Merriweather" ;
+    color:#E67522 ;
+    text-align: center;
+   padding: 0 40px;
+   margin: 40px 0 0;
+}
+.action p{
+    font: 700 1.25rem "Roboto";
+    color:#fff ;
+    text-align: center;
+    padding: 0 40px;
+    margin: 0;
+}
+.action .bouton{
+    background: #E67522;
+    align-self: center;
+    
+    color: #fff;
+    margin: auto 0 40px;
+    width: 350px; 
+    height: 36px;
+    font: 700 1.125rem "Roboto";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
