@@ -237,3 +237,34 @@ footer p{
   text-align: center;
   padding:60px 0 50px
 }
+
+/*modale*/
+
+p.popUp{
+  width: 800px;
+  height: 600px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modale{
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.visible{
+  display: flex;
+  
+}
